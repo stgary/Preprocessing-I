@@ -217,3 +217,23 @@ header nav div a {
   font-size: 3rem;
   margin: 0 3%;
 }
+.three .section-three .section-three-table {
+  display: flex;
+  justify-content: center;
+}
+.three .section-three .section-three-table table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 95%;
+  border: 1px solid lightgrey;
+  font-size: 2rem;
+}
+.three .section-three .section-three-table table tr {
+  border: 1px solid lightgrey;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+  font-size: 2rem;
+}
