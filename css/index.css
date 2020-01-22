@@ -148,3 +148,20 @@ header nav div a {
   color: black;
   margin: 0 2%;
 }
+.one {
+  display: flex;
+  justify-content: center;
+}
+.one .section-one {
+  width: 97%;
+  height: 90vh;
+  background-color: #E9ECEF;
+}
+.one .section-one img {
+  width: 30%;
+  margin: 5%;
+}
+.one .section-one h1 {
+  font-size: 3rem;
+  margin: 1%;
+}
