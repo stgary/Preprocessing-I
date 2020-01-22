@@ -66,6 +66,12 @@ html {
 	justify-content: center;
 }
 
+.shadow() {
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 10px 8px #888888;
+}
+
 header {
 	
 	nav {
@@ -90,8 +96,8 @@ header {
 
 	.section-one {
 		width: 97%;
-		height: 90vh;
 		background-color: #E9ECEF;
+		.shadow();
 		
 		img {
 			width: 30%;
@@ -101,6 +107,77 @@ header {
 		h1 {
 			font-size: 3rem;
 			margin: 1%;
+		}
+
+		h6 {
+			font-size: 2rem;
+    	margin: 2%
+		}
+
+		button {
+			margin: 0 1.5%;
+			background-color: #808080;
+			border-radius: 5px;
+			width: 15%;
+			height: 5vh;
+			color: white;
+		}
+
+		p {
+			margin: 2%;
+    		font-size: 1.5rem;
+		}
+
+	}
+}
+
+.two {
+	.section-two {
+		display: flex;
+		width: 100%;
+		margin: 2%;
+
+		.section-two-right {
+		    display: flex;
+			width: 25%;
+			margin-left: 20%;
+			margin-right: 10%;
+			flex-direction: column;
+
+			h5 {
+				font-size: 3rem;
+			}
+
+			ul {
+				li {
+					border-top: 1px solid lightgrey;
+					font-size: 2rem;
+				}
+			}
+		}
+
+		.section-two-left {
+			width: 50%;
+
+			h2 {
+				font-size: 3rem;
+				margin: 0 3%;
+			}
+
+			p {
+				font-size: 1.5rem;
+				margin: 3%;
+			}
+
+		}
+	}
+}
+
+.three {
+	.section-three {
+		h1 {
+			font-size: 3rem;
+			margin: 0 3%;
 		}
 	}
 }

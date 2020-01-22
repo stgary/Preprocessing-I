@@ -154,8 +154,10 @@ header nav div a {
 }
 .one .section-one {
   width: 97%;
-  height: 90vh;
   background-color: #E9ECEF;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
 }
 .one .section-one img {
   width: 30%;
@@ -164,4 +166,54 @@ header nav div a {
 .one .section-one h1 {
   font-size: 3rem;
   margin: 1%;
+}
+.one .section-one h6 {
+  font-size: 2rem;
+  margin: 2%;
+}
+.one .section-one button {
+  margin: 0 1.5%;
+  background-color: #808080;
+  border-radius: 5px;
+  width: 15%;
+  height: 5vh;
+  color: white;
+}
+.one .section-one p {
+  margin: 2%;
+  font-size: 1.5rem;
+}
+.two .section-two {
+  display: flex;
+  width: 100%;
+  margin: 2%;
+}
+.two .section-two .section-two-right {
+  display: flex;
+  width: 25%;
+  margin-left: 20%;
+  margin-right: 10%;
+  flex-direction: column;
+}
+.two .section-two .section-two-right h5 {
+  font-size: 3rem;
+}
+.two .section-two .section-two-right ul li {
+  border-top: 1px solid lightgrey;
+  font-size: 2rem;
+}
+.two .section-two .section-two-left {
+  width: 50%;
+}
+.two .section-two .section-two-left h2 {
+  font-size: 3rem;
+  margin: 0 3%;
+}
+.two .section-two .section-two-left p {
+  font-size: 1.5rem;
+  margin: 3%;
+}
+.three .section-three h1 {
+  font-size: 3rem;
+  margin: 0 3%;
 }
