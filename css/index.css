@@ -134,3 +134,17 @@ html,
 body {
   height: 100%;
 }
+html {
+  font-size: 62.5%;
+}
+header nav div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+header nav div a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+  margin: 0 2%;
+}
